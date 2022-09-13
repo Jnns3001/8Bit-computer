@@ -2497,10 +2497,6 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 9fa70c14-7bed-411e-8b25-f28e5cd0f1d0)
   )
-  (text "BUG" (at 99.06 173.99 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid cc943ca1-2bae-4cb7-adb0-f3d9a1293d16)
-  )
 
   (symbol (lib_id "power:VCC") (at 85.09 306.07 0) (unit 1)
     (in_bom yes) (on_board yes)

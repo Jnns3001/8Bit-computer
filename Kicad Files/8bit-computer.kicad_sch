@@ -2588,7 +2588,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 232.41 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b604d93)
-    (property "Reference" "" (id 0) (at 229.87 322.58 0))
+    (property "Reference" "D8" (id 0) (at 229.87 322.58 0))
     (property "Value" "RED" (id 1) (at 234.95 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 232.41 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2603,7 +2603,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 227.33 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b605119)
-    (property "Reference" "" (id 0) (at 224.79 322.58 0))
+    (property "Reference" "D7" (id 0) (at 224.79 322.58 0))
     (property "Value" "RED" (id 1) (at 229.87 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 227.33 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2618,7 +2618,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 222.25 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b60618b)
-    (property "Reference" "" (id 0) (at 219.71 322.58 0))
+    (property "Reference" "D6" (id 0) (at 219.71 322.58 0))
     (property "Value" "RED" (id 1) (at 224.79 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 222.25 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2633,7 +2633,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 217.17 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b6064e6)
-    (property "Reference" "" (id 0) (at 214.63 322.58 0))
+    (property "Reference" "D5" (id 0) (at 214.63 322.58 0))
     (property "Value" "RED" (id 1) (at 219.71 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 217.17 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2648,7 +2648,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 212.09 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b606844)
-    (property "Reference" "" (id 0) (at 209.55 322.58 0))
+    (property "Reference" "D4" (id 0) (at 209.55 322.58 0))
     (property "Value" "RED" (id 1) (at 214.63 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 212.09 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2663,7 +2663,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 207.01 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b606ba7)
-    (property "Reference" "" (id 0) (at 204.47 322.58 0))
+    (property "Reference" "D3" (id 0) (at 204.47 322.58 0))
     (property "Value" "RED" (id 1) (at 209.55 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 207.01 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2678,7 +2678,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 201.93 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b606f0b)
-    (property "Reference" "" (id 0) (at 199.39 322.58 0))
+    (property "Reference" "D2" (id 0) (at 199.39 322.58 0))
     (property "Value" "RED" (id 1) (at 204.47 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 201.93 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2693,7 +2693,7 @@
   (symbol (lib_id "8bit-computer-rescue:LED_ALT-Device") (at 196.85 322.58 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b607272)
-    (property "Reference" "" (id 0) (at 194.31 322.58 0))
+    (property "Reference" "D1" (id 0) (at 194.31 322.58 0))
     (property "Value" "RED" (id 1) (at 199.39 322.58 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 196.85 322.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "Device:R") (at 196.85 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b6094be)
-    (property "Reference" "" (id 0) (at 198.882 332.74 90))
+    (property "Reference" "R9" (id 0) (at 198.882 332.74 90))
     (property "Value" "220" (id 1) (at 196.85 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 195.072 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2723,7 +2723,7 @@
   (symbol (lib_id "Device:R") (at 201.93 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b6099fb)
-    (property "Reference" "" (id 0) (at 203.962 332.74 90))
+    (property "Reference" "R10" (id 0) (at 203.962 332.74 90))
     (property "Value" "220" (id 1) (at 201.93 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 200.152 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2738,7 +2738,7 @@
   (symbol (lib_id "Device:R") (at 207.01 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b609d6b)
-    (property "Reference" "" (id 0) (at 209.042 332.74 90))
+    (property "Reference" "R11" (id 0) (at 209.042 332.74 90))
     (property "Value" "220" (id 1) (at 207.01 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 205.232 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2753,7 +2753,7 @@
   (symbol (lib_id "Device:R") (at 212.09 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b60a0de)
-    (property "Reference" "" (id 0) (at 214.122 332.74 90))
+    (property "Reference" "R12" (id 0) (at 214.122 332.74 90))
     (property "Value" "220" (id 1) (at 212.09 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 210.312 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2768,7 +2768,7 @@
   (symbol (lib_id "Device:R") (at 217.17 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b60a454)
-    (property "Reference" "" (id 0) (at 219.202 332.74 90))
+    (property "Reference" "R13" (id 0) (at 219.202 332.74 90))
     (property "Value" "220" (id 1) (at 217.17 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 215.392 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2783,7 +2783,7 @@
   (symbol (lib_id "Device:R") (at 222.25 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b60a7cf)
-    (property "Reference" "" (id 0) (at 224.282 332.74 90))
+    (property "Reference" "R14" (id 0) (at 224.282 332.74 90))
     (property "Value" "220" (id 1) (at 222.25 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 220.472 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2798,7 +2798,7 @@
   (symbol (lib_id "Device:R") (at 227.33 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b60ab4b)
-    (property "Reference" "" (id 0) (at 229.362 332.74 90))
+    (property "Reference" "R15" (id 0) (at 229.362 332.74 90))
     (property "Value" "220" (id 1) (at 227.33 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 225.552 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2813,7 +2813,7 @@
   (symbol (lib_id "Device:R") (at 232.41 332.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b60aeca)
-    (property "Reference" "" (id 0) (at 234.442 332.74 90))
+    (property "Reference" "R16" (id 0) (at 234.442 332.74 90))
     (property "Value" "220" (id 1) (at 232.41 332.74 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 230.632 332.74 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2844,7 +2844,7 @@
   (symbol (lib_id "Device:R") (at 232.41 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b612d10)
-    (property "Reference" "" (id 0) (at 234.442 300.99 90))
+    (property "Reference" "R8" (id 0) (at 234.442 300.99 90))
     (property "Value" "10K" (id 1) (at 232.41 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 230.632 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2859,7 +2859,7 @@
   (symbol (lib_id "Device:R") (at 227.33 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b613280)
-    (property "Reference" "" (id 0) (at 229.362 300.99 90))
+    (property "Reference" "R7" (id 0) (at 229.362 300.99 90))
     (property "Value" "10K" (id 1) (at 227.33 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 225.552 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2874,7 +2874,7 @@
   (symbol (lib_id "Device:R") (at 222.25 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b613619)
-    (property "Reference" "" (id 0) (at 224.282 300.99 90))
+    (property "Reference" "R6" (id 0) (at 224.282 300.99 90))
     (property "Value" "10K" (id 1) (at 222.25 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 220.472 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2889,7 +2889,7 @@
   (symbol (lib_id "Device:R") (at 217.17 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b6139a3)
-    (property "Reference" "" (id 0) (at 219.202 300.99 90))
+    (property "Reference" "R5" (id 0) (at 219.202 300.99 90))
     (property "Value" "10K" (id 1) (at 217.17 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 215.392 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2904,7 +2904,7 @@
   (symbol (lib_id "Device:R") (at 212.09 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b613d30)
-    (property "Reference" "" (id 0) (at 214.122 300.99 90))
+    (property "Reference" "R4" (id 0) (at 214.122 300.99 90))
     (property "Value" "10K" (id 1) (at 212.09 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 210.312 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2919,7 +2919,7 @@
   (symbol (lib_id "Device:R") (at 207.01 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b6140c0)
-    (property "Reference" "" (id 0) (at 209.042 300.99 90))
+    (property "Reference" "R3" (id 0) (at 209.042 300.99 90))
     (property "Value" "10K" (id 1) (at 207.01 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 205.232 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2934,7 +2934,7 @@
   (symbol (lib_id "Device:R") (at 201.93 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b614453)
-    (property "Reference" "" (id 0) (at 203.962 300.99 90))
+    (property "Reference" "R2" (id 0) (at 203.962 300.99 90))
     (property "Value" "10K" (id 1) (at 201.93 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 200.152 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2949,7 +2949,7 @@
   (symbol (lib_id "Device:R") (at 196.85 300.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b6147e9)
-    (property "Reference" "" (id 0) (at 198.882 300.99 90))
+    (property "Reference" "R1" (id 0) (at 198.882 300.99 90))
     (property "Value" "10K" (id 1) (at 196.85 300.99 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 195.072 300.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2964,7 +2964,7 @@
   (symbol (lib_id "8bit-computer-rescue:CP1-Device") (at 85.09 322.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b64af9c)
-    (property "Reference" "" (id 0) (at 85.725 320.04 0)
+    (property "Reference" "C1" (id 0) (at 85.725 320.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 85.725 325.12 0)
@@ -2999,7 +2999,7 @@
   (symbol (lib_id "Connector:USB_A") (at 69.85 313.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065732580)
-    (property "Reference" "" (id 0) (at 71.2978 301.8282 0))
+    (property "Reference" "J1" (id 0) (at 71.2978 301.8282 0))
     (property "Value" "USB_A" (id 1) (at 71.2978 304.1396 0))
     (property "Footprint" "" (id 2) (at 73.66 314.96 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4179,80 +4179,17 @@
     (path "/00000000-0000-0000-0000-00005b60dd27"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-00006189d607"
-      (reference "#PWR05") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618e44ee"
-      (reference "#PWR06") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618e65b6"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618e5de4"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062c9d111"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061de154a"
       (reference "#PWR010") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-00006189cf9e"
-      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000617c5f19"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061e94fb7"
       (reference "#PWR013") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061de1127"
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618fcf66"
-      (reference "#PWR015") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618fcfa8"
-      (reference "#PWR016") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618fcfb7"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618fcfae"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000617e9b53"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618fcf60"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000617ea481"
-      (reference "#PWR021") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-00006190399a"
-      (reference "#PWR022") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000619039dc"
-      (reference "#PWR023") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000619039eb"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000619039e2"
-      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061810377"
-      (reference "#PWR026") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061903994"
-      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000641aa756"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061853bec"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062c5f081"
       (reference "#PWR030") (unit 1) (value "GND") (footprint "")
@@ -5043,15 +4980,6 @@
     (path "/00000000-0000-0000-0000-00005b533ecb/00000000-0000-0000-0000-000061e9d2dd"
       (reference "D?") (unit 1) (value "BLUE") (footprint "LED_THT:LED_D5.0mm")
     )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618925e0"
-      (reference "IC1") (unit 1) (value "39SF01070-4C-P") (footprint "DIP1524W56P254L4204H483Q32N")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000618fcf5a"
-      (reference "IC2") (unit 1) (value "39SF01070-4C-P") (footprint "DIP1524W56P254L4204H483Q32N")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-00006190398e"
-      (reference "IC3") (unit 1) (value "39SF01070-4C-P") (footprint "DIP1524W56P254L4204H483Q32N")
-    )
     (path "/00000000-0000-0000-0000-00005b57d8e5/00000000-0000-0000-0000-0000613cae4f"
       (reference "IC4") (unit 1) (value "AT28C64B-15PU") (footprint "DIP1556W56P254L3702H483Q28N")
     )
@@ -5511,24 +5439,6 @@
     (path "/00000000-0000-0000-0000-00005b533ecb/00000000-0000-0000-0000-00005b52ba7f"
       (reference "SW8") (unit 1) (value "SW_SPDT") (footprint "8bit-custom-footprints:DPDT-pushbutton")
     )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062d4686c"
-      (reference "U1") (unit 1) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062d47a81"
-      (reference "U1") (unit 2) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062d483cb"
-      (reference "U1") (unit 3) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062d491e0"
-      (reference "U1") (unit 4) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062d49bec"
-      (reference "U1") (unit 5) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000062d4ac51"
-      (reference "U1") (unit 6) (value "74LS04") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-000061dbf548"
       (reference "U2") (unit 1) (value "74LS161") (footprint "")
     )
@@ -5537,24 +5447,6 @@
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-00006245b7e2"
       (reference "U3") (unit 2) (value "74LS02") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000631f5e84"
-      (reference "U4") (unit 1) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000631f5e8a"
-      (reference "U4") (unit 2) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000631f5e90"
-      (reference "U4") (unit 3) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000631f5e96"
-      (reference "U4") (unit 4) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000631f5e9c"
-      (reference "U4") (unit 5) (value "74LS04") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b5b7509/00000000-0000-0000-0000-0000631f5ea2"
-      (reference "U4") (unit 6) (value "74LS04") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061912afe/00000000-0000-0000-0000-000061c95987"
       (reference "U5") (unit 1) (value "74LS00") (footprint "")
@@ -5762,6 +5654,15 @@
     )
     (path "/00000000-0000-0000-0000-00005b551e96/00000000-0000-0000-0000-00006237362a"
       (reference "U?") (unit 1) (value "74HC00") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5b7509/383c5889-6565-41e7-bde7-97962b03867a"
+      (reference "U?") (unit 1) (value "SST39SF020") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5b7509/ad16aea8-e686-48e1-92d2-fa11d7ca2720"
+      (reference "U?") (unit 1) (value "SST39SF020") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5b7509/d329850c-5c4e-4299-a806-5254a0f7eace"
+      (reference "U?") (unit 1) (value "SST39SF020") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b533ecb/00000000-0000-0000-0000-000061d8637c"
       (reference "U?") (unit 2) (value "74HC00") (footprint "")

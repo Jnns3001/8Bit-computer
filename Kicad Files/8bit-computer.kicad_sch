@@ -4599,8 +4599,14 @@
     (path "/00000000-0000-0000-0000-00005b5b7509/134f0e50-10c4-44c6-bdba-38713179e3f8"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005b5b7509/1aed78cd-a7e0-4f5a-ba8c-da3cd26a3f9b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005b5b7509/29d3da5e-a634-42c3-a799-c0ab28e26f7c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5b7509/2cb8e256-b86a-42a5-a8b6-2109105d00d4"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/31c3ba00-16e1-4e26-8a8a-b6dc4768995d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -4608,20 +4614,26 @@
     (path "/00000000-0000-0000-0000-00005b5b7509/324d3d98-07be-4644-922d-25f257cbdbf7"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005b5b7509/325b4265-7cd3-45f4-87c4-35df3465d8a4"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005b5b7509/47ec4726-052b-4551-89d0-310eb115a6f0"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b5b7509/4b40b535-9b5c-47c6-a1a3-a5c7032c32e5"
+    (path "/00000000-0000-0000-0000-00005b5b7509/619faaa0-49d2-43ca-bfb4-87de1cbe1692"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/7b6f360f-b826-4daf-ba63-ed98cfacd251"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b5b7509/86fc8760-ff39-49ee-9d5c-1639889efb0c"
+    (path "/00000000-0000-0000-0000-00005b5b7509/9ff600b0-7848-4cd3-8619-9e9e86af97ef"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/acf76ba9-67bc-4dd8-8e06-1d6e35c97af1"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5b7509/bcaeba60-65a4-4c9a-9712-e054963497eb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b5b7509/f76e0a86-bd29-4d0b-8528-7bfeea830ca2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")

@@ -2018,6 +2018,10 @@
     (uuid fe9797f8-f27b-451d-8409-fbb4b78becb1)
   )
 
+  (text "interner pullup??" (at 54.61 52.07 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 0dbb345a-3a07-488e-bd55-47097264bd8e)
+  )
   (text "Manual" (at 62.23 151.13 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 25a000e1-87a7-41eb-b6a4-33f3ed6ca2b8)
@@ -2025,6 +2029,10 @@
   (text "PROG Mode" (at 62.23 146.05 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 8abb0570-5316-461a-b709-1593f1cbfae7)
+  )
+  (text "interner pullup??" (at 54.61 119.38 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid e900a6d0-511b-42b2-a5b9-1bf7789b5a3a)
   )
 
   (hierarchical_label "DI_0" (shape output) (at 176.53 143.51 270)

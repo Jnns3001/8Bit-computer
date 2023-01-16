@@ -1134,7 +1134,7 @@
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 3f265516-490f-4cc3-8d9d-72698e374b4b)
   )
-  (hierarchical_label "MO" (shape input) (at 39.37 118.11 180)
+  (hierarchical_label "~{MO}" (shape input) (at 39.37 118.11 180)
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 409ad350-e60c-4db1-a1cb-31e994f49db3)
   )

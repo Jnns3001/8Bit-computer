@@ -359,6 +359,8 @@
   )
 
 
+
+  (no_connect (at 103.505 97.155) (uuid 500f5d3a-b89a-4800-bd94-1b83723be460))
   (no_connect (at 149.225 97.155) (uuid 7b12dfc4-f1d8-43a4-92e1-0314b7eb7a1d))
   (no_connect (at 126.365 97.155) (uuid 7b12dfc4-f1d8-43a4-92e1-0314b7eb7a1e))
   (no_connect (at 123.825 97.155) (uuid 7b12dfc4-f1d8-43a4-92e1-0314b7eb7a1f))
@@ -496,7 +498,7 @@
   (symbol (lib_id "MCU_RaspberryPi:RP2040") (at 131.445 71.755 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 19d24f5a-a98e-4383-9b74-82f7e54eab6a)
-    (property "Reference" "U?" (id 0) (at 179.07 68.1736 90))
+    (property "Reference" "U67" (id 0) (at 179.07 68.1736 90))
     (property "Value" "RP2040" (id 1) (at 179.07 70.7136 90))
     (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm" (id 2) (at 131.445 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -566,7 +568,7 @@
   (symbol (lib_id "power:VCC") (at 85.725 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 84e53281-dae3-4a7c-b8d3-293992dd13ec)
-    (property "Reference" "#PWR?" (id 0) (at 85.725 65.405 0)
+    (property "Reference" "#PWR0132" (id 0) (at 85.725 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 85.725 55.88 0))
@@ -582,7 +584,7 @@
   (symbol (lib_id "power:GND") (at 177.165 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ba620f34-9a30-4d97-8fe0-f7760b4d0cc9)
-    (property "Reference" "#PWR?" (id 0) (at 177.165 78.105 0)
+    (property "Reference" "#PWR0133" (id 0) (at 177.165 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 177.165 76.2 0))

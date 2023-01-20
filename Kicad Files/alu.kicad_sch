@@ -1513,7 +1513,7 @@
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 6a15d3b2-20ae-4c1c-b7d6-3d030f1e9887)
   )
-  (hierarchical_label "~{EO}" (shape input) (at 260.35 22.86 0)
+  (hierarchical_label "~{ΣO}" (shape input) (at 260.35 22.86 0)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 6a2d79f7-cf8b-42ea-b178-2c573347919a)
   )

@@ -2,7 +2,7 @@
 
   (uuid bf040480-7b15-4ac7-bafc-8bfa5977ee46)
 
-  (paper "USLetter")
+  (paper "A4")
 
   (lib_symbols
     (symbol "74xx:74LS00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
@@ -1564,7 +1564,6 @@
       )
     )
   )
-
 
   (junction (at 199.39 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 05087939-c671-4ace-8ed8-e3ad98fcfd3f)

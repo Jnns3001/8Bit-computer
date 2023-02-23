@@ -2,7 +2,7 @@
 
   (uuid 960ec6a5-ceb1-4257-b175-5f9ef860a458)
 
-  (paper "USLetter")
+  (paper "A4")
 
   (lib_symbols
     (symbol "8bit-computer-rescue:74LS173-8bit-computer-rescue" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
@@ -476,7 +476,6 @@
       )
     )
   )
-
 
   (junction (at 146.05 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 0e2acf46-2053-4f0f-b3e8-a489abab12c1)

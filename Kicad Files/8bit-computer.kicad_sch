@@ -3187,9 +3187,17 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 874def25-046a-40dc-9f71-5f29f513d26a)
   )
+  (text "upgrade auf \n74hc181 möglich\n" (at 229.87 170.18 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 92b9517a-8887-4df9-bcf6-1581df3c7b1c)
+  )
   (text "built" (at 164.465 216.535 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 9a81c4f8-7ddf-42ad-bda4-0798c2ede8e2)
+  )
+  (text "built" (at 98.425 76.835 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid a1923975-4d32-47ea-adab-56798bcc8e33)
   )
   (text "upgrade" (at 97.155 90.17 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
@@ -5820,8 +5828,14 @@
     (path "/bfd8f59e-1384-4ffa-92d1-192de300ff57/ba620f34-9a30-4d97-8fe0-f7760b4d0cc9"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005b5451db/5816edd0-db64-45f9-becd-0e1422d2c8da"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005b57994f/e567e834-1d89-4569-93b8-8ce4a0f36bc2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5451db/f12bdbec-9b52-4df6-94cf-3f7c80d6acbf"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b64af9c"
       (reference "C1") (unit 1) (value "10µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
@@ -7136,6 +7150,12 @@
     )
     (path "/bfd8f59e-1384-4ffa-92d1-192de300ff57/19d24f5a-a98e-4383-9b74-82f7e54eab6a"
       (reference "U67") (unit 1) (value "RP2040") (footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b5451db/58e63b70-ab97-4aaa-beee-ecf7c395844b"
+      (reference "U?") (unit 1) (value "SST39SF020") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b5451db/de317b5f-26bc-4061-8b8d-f0ac75510b6c"
+      (reference "U?") (unit 1) (value "SST39SF020") (footprint "")
     )
   )
 )

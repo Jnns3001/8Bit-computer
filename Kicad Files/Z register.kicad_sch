@@ -2495,7 +2495,7 @@
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 1043f57b-54dc-4300-b686-48b9ec2ab029)
   )
-  (hierarchical_label "OI" (shape input) (at 25.4 121.92 180)
+  (hierarchical_label "ZI" (shape input) (at 25.4 121.92 180)
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 2e4e2bae-8e67-4335-9367-b97e2db6f4bd)
   )

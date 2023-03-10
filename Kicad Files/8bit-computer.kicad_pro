@@ -416,51 +416,51 @@
     ],
     [
       "d198339f-a5e4-4ac5-ab50-dc19437493e9",
-      "Y register1"
+      "Y register"
     ],
     [
       "75af510d-9dc5-4fcb-997f-b7b61818df98",
-      "Clock1"
+      "Clock"
     ],
     [
       "26be7043-7dea-4fd6-bf90-89f8a21637d0",
-      "MAR1"
+      "MAR"
     ],
     [
       "609bd29a-2c06-419b-ab28-434ade289b90",
-      "RAM1"
+      "RAM"
     ],
     [
       "930ac145-bd59-49d8-8838-8b3c56e928cb",
-      "Z register1"
+      "Z register"
     ],
     [
       "10ecf8fe-c9b8-494c-b2b0-367a9a329f72",
-      "A register1"
+      "A register"
     ],
     [
       "fd3694a1-066e-49eb-825a-3f8a8d32d8da",
-      "B register1"
+      "B register"
     ],
     [
       "fcbd9d92-4244-49af-b53a-8c91cbf49a2f",
-      "Instruction register1"
+      "Instruction register"
     ],
     [
       "d5aa5ac0-388d-4f70-9f1c-390f85967c3e",
-      "Control logic1"
+      "Control logic"
     ],
     [
       "5e531611-1a12-42fc-8af5-6860506090a4",
-      "ALU1"
+      "ALU"
     ],
     [
       "bd0dc9cd-3a05-46dd-86be-99f00a911cc3",
-      "X register1"
+      "X register"
     ],
     [
       "ebc5bdb2-3f38-4975-9aed-e7af448077bb",
-      "IO1"
+      "IO"
     ]
   ],
   "text_variables": {}

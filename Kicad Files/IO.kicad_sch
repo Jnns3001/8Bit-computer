@@ -376,7 +376,6 @@
   (no_connect (at 161.925 97.155) (uuid e0f61d3a-dffd-4391-82e2-b1949e53f6fd))
   (no_connect (at 169.545 97.155) (uuid e0f61d3a-dffd-4391-82e2-b1949e53f6fe))
   (no_connect (at 139.065 97.155) (uuid e0f61d3a-dffd-4391-82e2-b1949e53f6ff))
-  (no_connect (at 161.925 46.355) (uuid f326ae23-6f0d-4b6b-ba50-fc1c210da2c3))
 
   (wire (pts (xy 85.725 69.215) (xy 85.725 74.295))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -426,6 +425,10 @@
   (hierarchical_label "ABUS_00" (shape tri_state) (at 156.845 46.355 90)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 522695ae-d9ed-4aca-9fcc-daafb6d6330a)
+  )
+  (hierarchical_label "~{CLK}" (shape tri_state) (at 161.925 46.355 90)
+    (effects (font (size 1.524 1.524)) (justify left))
+    (uuid 57cff486-d5b0-41f2-a1d5-25d9c93d521d)
   )
   (hierarchical_label "CLR" (shape tri_state) (at 169.545 46.355 90)
     (effects (font (size 1.524 1.524)) (justify left))

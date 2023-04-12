@@ -1,0 +1,94 @@
+
+JM-8
+
+=== INSTRUCTIONS ===
+0: MW   | Move Word	      | reg      , imm8/reg   -> 		        reg = imm8/reg
+1: LW   | Load Word       | reg      , imm16/HL   -> 		        reg = mem(HL/imm16)
+2: SW   | Store Word      | imm16/HL , reg        ->  mem(HL/imm16) = reg
+3: PUSH | Push to Stack   | imm8/reg ,            ->         [SP--] = imm8/reg
+4: POP  | Pull from Stack | reg      ,            -> 		        reg = [++SP]
+5: LDA  | Load Address	  | imm16    ,            ->             HL = imm16
+6: JNZ  | Jump not Zero	  | imm8/reg ,            ->             PC = HL if imm8/reg != 0 else NOP
+7: INB  | Input Byte	    | reg      , imm8/reg   ->            reg = PORT[imm8/reg]
+8: OUTB | Output Byte	    | imm8/reg , reg        -> PORT[imm8/reg] = reg
+9: ADD^ | Add		          | reg      , imm8/reg   ->            reg = reg + imm8/reg
+A: ADC^ | Add + Carry	    | reg      , imm8/reg   ->            reg = reg + imm8/reg + c
+B: AND  | Logic AND	      | reg      , imm8/reg   ->            reg = reg & imm8/reg
+C: OR   | Logic OR	      | reg      , imm8/reg   ->            reg = reg | imm8/reg
+D: NOR  | Logic NOR   	  | reg      , imm8/reg   ->            reg = ~(reg | imm8/reg)
+E: CMP^ | Compare	        | reg      , imm8/reg   ->              f = cmp(reg, imm8/reg) (see below)
+F: SBB^ | Subtract - b	  | reg      , imm8/reg   ->            reg = reg - imm8/reg - b
+
+* imm8/16 are the byte(s) immediately following the instruction byte in memory
+* with imm8/reg and imm16/HL, the choice is indicated by the y-bit
+  (see INSTRUCTION LAYOUT)
+
+^ these instructions load the (F)lags register
+
+=== REGISTERS ===
+A (0): GP register
+B (1): GP register
+X (2): GP register
+Y (3): GP register
+L (4): GP register/(L)ow index register
+H (5): GP register/(H)igh index register
+Z (6): GP + Output register
+F (7): flags (LSB to MSB)
+    C  CARRY
+    V  OVERFLOW
+    Z  ZERO  
+    N  NEGATIVE
+
+=== ALU LAYOUT ===
+
+ADD a + b
+ADC a + b + c
+SUB a - b 
+SBB a - b - c
+CMP a < b ?
+
+NOT
+AND
+OR
+XOR
+
+ROR
+ROL
+LSR
+LSL
+ASR
+
+
+
+* Calling convention
+    * A, B, X, Y, Z for arguments
+      * Use 16-bit pairs AB and XY if arguments are 16-bits wide
+      * Skip register if necessary to pair registers together into 16 bits
+    * Remaining arguments pushed to stack in order
+    * Return value in Z
+
+=== INSTRUCTION LAYOUT ===
+Instruction layout is XXXXYZZZ where
+X: 4-bit instruction identifier (see INSTRUCTIONS)
+Y: 0 if argument is imm(8/16), 1 if argument is reg
+Z: 3-bit register identifier of first register argument (see REGISTERS)
+
+* instructions with reg, reg arguments have the second register encoded in the
+  first three bits of the second instruction byte
+* For LW/SW, the Y-bit indicates imm16 (0) and HL (1). Z-bits are ALWAYS reg.
+* Instructions can be 1-3 bytes long
+    * PUSH/POP with one register argument are one byte instructions
+    * LW/SW with Y=0 (imm16) are 3 bytes each
+    * LDA is always 3 bytes
+
+=== MEMORY LAYOUT ===
+0x0000..0x7FFF: GENERAL PURPOSE ROM
+0x8000..0xBFFF: GENERAL PURPOSE RAM (BANKED)
+0xC000..0xFDFF: GENERAL PURPOSE RAM
+0xFC00..0xFEFF: STACK (RECOMMENDED), else GP RAM
+0xFF00..0xFFF9: GENERAL PURPOSE RAM
+0xFFFA..0xFFFA: MB/(M)emory (B)ank
+0xFFFB..0xFFFB: UNUSED
+0xFFFC..0xFFFD: SP/(S)tack (P)ointer
+0xFFFE..0xFFFF: PC/(P)rogram (C)ounter
+

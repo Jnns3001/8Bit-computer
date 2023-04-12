@@ -2,21 +2,21 @@
 JM-8
 
 === INSTRUCTIONS ===
-0: MW   | Move Word	      | reg      , imm8/reg   -> 		        reg = imm8/reg
-1: LW   | Load Word       | reg      , imm16/HL   -> 		        reg = mem(HL/imm16)
+0: MW   | Move Word	  | reg      , imm8/reg   -> 	        reg = imm8/reg
+1: LW   | Load Word       | reg      , imm16/HL   -> 	        reg = mem(HL/imm16)
 2: SW   | Store Word      | imm16/HL , reg        ->  mem(HL/imm16) = reg
 3: PUSH | Push to Stack   | imm8/reg ,            ->         [SP--] = imm8/reg
-4: POP  | Pull from Stack | reg      ,            -> 		        reg = [++SP]
+4: POP  | Pull from Stack | reg      ,            -> 	        reg = [++SP]
 5: LDA  | Load Address	  | imm16    ,            ->             HL = imm16
 6: JNZ  | Jump not Zero	  | imm8/reg ,            ->             PC = HL if imm8/reg != 0 else NOP
-7: INB  | Input Byte	    | reg      , imm8/reg   ->            reg = PORT[imm8/reg]
-8: OUTB | Output Byte	    | imm8/reg , reg        -> PORT[imm8/reg] = reg
-9: ADD^ | Add		          | reg      , imm8/reg   ->            reg = reg + imm8/reg
-A: ADC^ | Add + Carry	    | reg      , imm8/reg   ->            reg = reg + imm8/reg + c
-B: AND  | Logic AND	      | reg      , imm8/reg   ->            reg = reg & imm8/reg
-C: OR   | Logic OR	      | reg      , imm8/reg   ->            reg = reg | imm8/reg
+7: INB  | Input Byte	  | reg      , imm8/reg   ->            reg = PORT[imm8/reg]
+8: OUTB | Output Byte	  | imm8/reg , reg        -> PORT[imm8/reg] = reg
+9: ADD^ | Add	          | reg      , imm8/reg   ->            reg = reg + imm8/reg
+A: ADC^ | Add + Carry	  | reg      , imm8/reg   ->            reg = reg + imm8/reg + c
+B: AND  | Logic AND       | reg      , imm8/reg   ->            reg = reg & imm8/reg
+C: OR   | Logic OR        | reg      , imm8/reg   ->            reg = reg | imm8/reg
 D: NOR  | Logic NOR   	  | reg      , imm8/reg   ->            reg = ~(reg | imm8/reg)
-E: CMP^ | Compare	        | reg      , imm8/reg   ->              f = cmp(reg, imm8/reg) (see below)
+E: CMP^ | Compare         | reg      , imm8/reg   ->              f = cmp(reg, imm8/reg) (see below)
 F: SBB^ | Subtract - b	  | reg      , imm8/reg   ->            reg = reg - imm8/reg - b
 
 * imm8/16 are the byte(s) immediately following the instruction byte in memory
@@ -24,6 +24,7 @@ F: SBB^ | Subtract - b	  | reg      , imm8/reg   ->            reg = reg - imm8/
   (see INSTRUCTION LAYOUT)
 
 ^ these instructions load the (F)lags register
+
 
 === REGISTERS ===
 A (0): GP register
@@ -38,9 +39,20 @@ F (7): flags (LSB to MSB)
     V  OVERFLOW
     Z  ZERO  
     N  NEGATIVE
+    x
+    x
+    x
+    x
+
+* Calling convention
+    * A, B, X, Y, Z for arguments
+      * Use 16-bit pairs AB and XY if arguments are 16-bits wide
+      * Skip register if necessary to pair registers together into 16 bits
+    * Remaining arguments pushed to stack in order
+    * Return value in Z
+
 
 === ALU LAYOUT ===
-
 ADD a + b
 ADC a + b + c
 SUB a - b 
@@ -58,15 +70,6 @@ LSR
 LSL
 ASR
 
-
-
-* Calling convention
-    * A, B, X, Y, Z for arguments
-      * Use 16-bit pairs AB and XY if arguments are 16-bits wide
-      * Skip register if necessary to pair registers together into 16 bits
-    * Remaining arguments pushed to stack in order
-    * Return value in Z
-
 === INSTRUCTION LAYOUT ===
 Instruction layout is XXXXYZZZ where
 X: 4-bit instruction identifier (see INSTRUCTIONS)
@@ -80,6 +83,7 @@ Z: 3-bit register identifier of first register argument (see REGISTERS)
     * PUSH/POP with one register argument are one byte instructions
     * LW/SW with Y=0 (imm16) are 3 bytes each
     * LDA is always 3 bytes
+
 
 === MEMORY LAYOUT ===
 0x0000..0x7FFF: GENERAL PURPOSE ROM

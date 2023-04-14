@@ -415,6 +415,10 @@
       ""
     ],
     [
+      "cd9ab2c9-a06f-48ed-8ead-8a1a98e8b8dd",
+      "ROM"
+    ],
+    [
       "d198339f-a5e4-4ac5-ab50-dc19437493e9",
       "Y register"
     ],
@@ -423,8 +427,20 @@
       "Clock"
     ],
     [
+      "81e7c705-9b3f-4b29-a35e-37b1a172548e",
+      "Program Counter"
+    ],
+    [
+      "87ed5c9a-bcd4-455f-8086-9227f96d5953",
+      "Data Bus Buffer"
+    ],
+    [
       "26be7043-7dea-4fd6-bf90-89f8a21637d0",
       "MAR"
+    ],
+    [
+      "4d1ce46d-22a2-4504-8697-c06d99bb8de0",
+      "AddrDecoder"
     ],
     [
       "609bd29a-2c06-419b-ab28-434ade289b90",

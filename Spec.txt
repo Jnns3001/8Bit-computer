@@ -52,22 +52,29 @@ F (7): flags (LSB to MSB)
 
 
 === ALU LAYOUT ===
-ADD a + b
-ADC a + b + c
-SUB a - b 
-SBB a - b - c
-CMP a < b ?
 
-NOT
-AND
-OR
-XOR
+00 ADD y = a + b
+01 ADC y = a + b + c
+02 SUB y = a - b 
+03 SBB y = a - b - c
+04 CMP c = a < b ?
+05 INC y = a + 1
+06 DEC y = a - 1
 
-ROR
-ROL
-LSR
-LSL
-ASR
+07 NOT
+08 AND
+09 OR
+0A XOR
+
+0B ROR
+0C ROL
+0D RRC
+0E RLC 
+0F ASR
+10 LSR
+11 LSL
+
+
 
 === INSTRUCTION LAYOUT ===
 Instruction layout is XXXXYZZZ where

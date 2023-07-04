@@ -1028,6 +1028,11 @@
     (uuid fd3e06a1-e6b4-4185-b6e4-8e2f9f7ea157)
   )
 
+  (text "Stack address" (at 212.725 138.43 90)
+    (effects (font (size 1.524 1.524)) (justify right bottom))
+    (uuid 90feb1c7-5df7-4138-bc03-13a431059323)
+  )
+
   (hierarchical_label "d_{i}4" (shape tri_state) (at 20.955 26.67 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 008eb07b-b015-4c1c-9439-636040f44f43)

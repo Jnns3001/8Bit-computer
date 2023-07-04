@@ -5900,6 +5900,10 @@
     (uuid ffec8ad8-0df8-4a11-b997-a581890468b6)
   )
 
+  (text "done" (at 220.345 242.57 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 02150db5-22f7-4443-8433-813763d192bf)
+  )
   (text "Control Section\n" (at 50.8 74.93 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 11b77e57-b015-4b24-ada1-800fc1c5fc81)
@@ -5924,7 +5928,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 28593950-0e86-4eae-9d6f-8efc8132f22a)
   )
-  (text "TODO:\nPC draw\nALU rethink\nCL rethink\n	interrupts\n	instruction layout\n	timing control?\n"
+  (text "eTODO:\ncolor coding LED\nPC draw\nALU rethink\nCL rethink\n	interrupts\n	instruction layout\n	timing control?\n"
     (at 27.94 31.75 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 2ed5e7f0-c5d7-48e1-bd2b-3141c2db2458)
@@ -5944,6 +5948,10 @@
   (text "done" (at 60.325 90.17 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 6272b0b1-1a16-43e4-bfda-6ba98c5e3b80)
+  )
+  (text "done" (at 167.005 165.1 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 66e58f30-b914-4f3a-9a1f-3822541b5cc4)
   )
   (text "done" (at 114.3 203.835 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))

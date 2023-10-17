@@ -503,6 +503,10 @@
       {
         "netclass": "int Data Bus",
         "pattern": "/d_{i}*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/.*"
       }
     ]
   },

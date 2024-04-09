@@ -320,9 +320,9 @@
     )
   )
 
+  (bus_alias "FLAG" (members "F_C" "F_Z" "F_N" "F_V" "F_5" "F_4" "F_6" "F_7"))
   (bus_alias "CONTROL" (members "CA_{M}[0..3]" "CA_{S}[0..3]" "CO_{M}[0..3]" "CO_{S}[0..3]"))
   (bus_alias "CS" (members "~{CS}_{ROM}" "~{CS}_{RAM}" "~{CS}_{VIA}" "~{CS}_{3}" "~{CS}_{4}" "~{CS}_{5}" "~{CS}_{6}" "~{CS}_{7}" "R/~{W}" "~{R}/W" "R/~{W}"))
-  (bus_alias "FLAG" (members "F_C" "F_Z" "F_N" "F_V" "F_5" "F_4" "F_6" "F_7"))
   (junction (at 199.39 -53.34) (diameter 0) (color 0 0 0 0)
     (uuid 0cb1ea99-5aa0-4938-9def-e859685b4b8e)
   )

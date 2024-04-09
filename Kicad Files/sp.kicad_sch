@@ -1028,6 +1028,11 @@
     (uuid fd3e06a1-e6b4-4185-b6e4-8e2f9f7ea157)
   )
 
+  (text "Stack Limited to 256 Bytes\n	Not bottom open\n	Might need rework\n	Top 8 Adr Bits are Hardwired!\n"
+    (at 113.03 129.54 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 0ba0103d-aee9-45b3-8119-0d0db146147a)
+  )
   (text "Stack address" (at 212.725 138.43 90)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 90feb1c7-5df7-4138-bc03-13a431059323)
